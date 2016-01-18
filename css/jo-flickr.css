@@ -1,0 +1,238 @@
+/*
+ * Jonathan Lurie Gallery
+ * https://github.com/jonathanlurie/Gallery
+ *
+ * Based on the work of Sebastian Tschan
+ * https://github.com/blueimp/Gallery
+ *
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ *
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0em;
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  background: #FFF;
+  color: #999;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    color: #999;
+}
+
+a {
+  color: #01bdbd;
+  text-decoration: none;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+h1 {
+  line-height: 1em;
+  color: #666;
+}
+h2,
+.links {
+  text-align: center;
+  /*width: 100%;*/
+}
+
+code {
+    padding: 5px;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin: 0;
+    font-size: 85%;
+    background-color: rgba(0,0,0,0.04);
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: medium;
+}
+
+#links {
+    /*width: 100%;*/
+}
+
+@media (min-width: 481px) {
+
+    .navigation {
+    list-style: none;
+    padding: 0;
+    }
+    .navigation li {
+    display: inline-block;
+    }
+    .navigation li:not(:first-child):before {
+    content: '| ';
+    }
+
+
+}
+
+
+@media (max-width: 900px) {
+
+    body{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+}
+
+.squareImage{
+    object-fit: cover; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    height: 225px;
+    width: 225px;
+}
+
+.blueimp-gallery {
+    background: #FFF;
+}
+
+
+.blueimp-gallery > .prev,
+.blueimp-gallery > .next {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.thinText{
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+.uppercaseText{
+    text-transform: uppercase;
+}
+
+.abrilText{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.blueimp-gallery > .close{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #CCC;
+    text-shadow: none;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #FFF;
+    opacity: 1;
+}
+
+.blueimp-gallery > .close:hover{
+    color: #999;
+}
+
+
+
+.blueimp-gallery > .title{
+    color: #000;
+    text-shadow: none;
+    /*
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #FFF;
+    */
+    opacity: 1;
+    font-weight: 300;
+}
+
+.blueimp-gallery > .title:hover{
+    color: #000;
+}
+
+.blueimp-gallery > .prev,
+.blueimp-gallery > .next {
+    text-shadow: none;
+}
+
+.blueimp-gallery > .indicator > li {
+    box-shadow: none;
+
+}
+
+#footer{
+    width: 100%;
+    height: 40px;
+    background-color: #FFF;
+    margin: 0px;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #EEE;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+#footer ul{
+    list-style-type: none;
+    padding: 0px;
+    width: 100%;
+    display: inline-flex;
+    margin: 0px;
+    margin-top: 9px;
+}
+
+.footerList, #footer ul li{
+    margin: auto;
+    font-size: 20px;
+    color: #C5C5C5;
+    /*text-shadow: 1px 1px 0 #FDFDFD;*/
+}
+
+.footerList:hover, #footer ul li:hover{
+    color: #555;
+}
+
+.blueimp-gallery > .indicator > li {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px
+}
+
+.lightText {
+    color: #C7C7C7;
+    font-weight: 300;
+}
+
+.flag-icon {
+    margin-right: 15px;
+    width: 15px
+}
+
+.italicText{
+    font-style: italic;
+}
+
+#titleDiv{
+    display: inline-flex;
+    width: 100%;
+}
+
+.shareBubble{
+    margin: auto;
+    margin-right: 0px;
+    font-size: 11px;
+
+}
+
+#facebookShare, #twitterShare{
+    transition: color 0.2s ease;
+}
+
+#facebookShare:hover, #twitterShare:hover{
+    color: #FFc000;
+}

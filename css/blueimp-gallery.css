@@ -32,8 +32,10 @@
   position: fixed;
   z-index: 999999;
   overflow: hidden;
-  background: #000;
+ /* background: #000;*/
+  /* JO: making the gallery background deep black */
   background: rgba(0, 0, 0, 0.9);
+  background: #000;
   opacity: 0;
   display: none;
   direction: ltr;
@@ -133,7 +135,7 @@
   top: 15px;
   left: 15px;
   margin: 0 40px 0 0;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 30px;
   color: #fff;
   text-shadow: 0 0 2px #000;

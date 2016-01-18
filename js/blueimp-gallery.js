@@ -139,7 +139,7 @@
             // Start with the automatic slideshow:
             startSlideshow: false,
             // Delay in milliseconds between slides for the automatic slideshow:
-            slideshowInterval: 5000,
+            slideshowInterval: 4000,
             // The starting index as integer.
             // Can also be an object of the given list,
             // or an equal object with the same url property:
