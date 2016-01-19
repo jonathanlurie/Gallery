@@ -109,7 +109,7 @@ $(function () {
             $('<a/>')
                 .append($('<img>').prop('src', baseUrl + '_n.jpg').addClass('squareImage'))
                 .prop('href', baseUrl + '_h.jpg')
-                .prop('title', photo.description._content)
+                .prop('title', (index + 1) + " - " + photo.description._content)
                 //.prop('title', photo.title)
                 .attr('data-gallery', '')
                 .appendTo(linksContainer);
